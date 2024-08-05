@@ -1,28 +1,62 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "First Post"
-      },
-      {
-        "id": 2,
-        "title": "Second Post"
-      },
-      {
-        "id": 3,
-        "title": "Third Post"
-      },
-      {
-        "id": 4,
-        "title": "Fourth Post"
-      },
-      {
-        "id": 5,
-        "title": "Fifth Post"
-      }
-    ],
-    "profile": {
-      "name": "typicode"
+  "posts": [
+    {
+      "id": 1,
+      "type": "Transaction",
+      "category": "Category A",
+      "tellerName": "Teller 1",
+      "accountId": "Account1",
+      "postingDate": "2024-08-01",
+      "fromDate": "2024-07-01",
+      "toDate": "2024-08-01",
+      "reference": "Ref001"
+    },
+    {
+      "id": 2,
+      "type": "Transaction",
+      "category": "Category B",
+      "tellerName": "Teller 2",
+      "accountId": "Account2",
+      "postingDate": "2024-08-02",
+      "fromDate": "2024-07-02",
+      "toDate": "2024-08-02",
+      "reference": "Ref002"
+    },
+    {
+      "id": 3,
+      "type": "Transaction",
+      "category": "Category C",
+      "tellerName": "Teller 3",
+      "accountId": "Account3",
+      "postingDate": "2024-08-03",
+      "fromDate": "2024-07-03",
+      "toDate": "2024-08-03",
+      "reference": "Ref003"
+    },
+    {
+      "id": 4,
+      "type": "Transaction",
+      "category": "Category D",
+      "tellerName": "Teller 4",
+      "accountId": "Account4",
+      "postingDate": "2024-08-04",
+      "fromDate": "2024-07-04",
+      "toDate": "2024-08-04",
+      "reference": "Ref004"
+    },
+    {
+      "id": 5,
+      "type": "Transaction",
+      "category": "Category E",
+      "tellerName": "Teller 5",
+      "accountId": "Account5",
+      "postingDate": "2024-08-05",
+      "fromDate": "2024-07-05",
+      "toDate": "2024-08-05",
+      "reference": "Ref005"
     }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-  
+}
